@@ -1,0 +1,1 @@
+# CSGORoll deposit script

@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "CSGORoll Deposit Script",
+    "description": "Automates CSGORoll deposit process",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.csgoroll.com/en/top-up/steam/csgo"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ]
+}
